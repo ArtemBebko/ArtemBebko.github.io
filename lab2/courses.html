@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курси</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><div class="wrapper">
+    <header>
+        <a href="index.html"><div class="title"><img src="./images/Logo.svg" alt=""></div></a>
+        <nav>
+            <a href="courses.html" class="part-button">Курси</a>
+            <a href="schedule.html" class="part-button">Розклад занять</a>
+            <a href="my-account.html" class="part-button">Мій кабінет</a>
+            <a href="reviews.html" class="part-button">Відгуки</a>
+        </nav>
+    </header>
+    <main>
+
+        <div class="title-container">
+            <div class="line"></div>
+            <h2>Активні курси</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="active-courses">
+        </div>
+
+        <div class="title-container">
+            <div class="line"></div>
+            <h2>Курси</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="courses">
+             <div class="course">
+                <img src="./images/HTML CSS.jpg" alt="">
+                <h2 class="course-title">HTML & CSS</h2>
+                <p><strong>Рівень:</strong> Початковий</p>
+                <p><strong>Тривалість:</strong> 2 місяці</p>
+                <p><strong>Викладач:</strong> Олександр Іванов</p>
+                <button class="course-start-button">Розпочати курс</button>
+        
+                <div class="course-stats-box">
+                    <div class="course-rating"> Оцінка: 3.0⭐</div>
+                    <div class="course-participants"> Учасників: 400</div>
+                </div>
+            </div>
+
+            <div class="course">
+                <img src="./images/JS.png" alt="">
+                <h2 class="course-title">JavaScript</h2>
+                <p><strong>Рівень:</strong> Середній</p>
+                <p><strong>Тривалість:</strong> 3 місяці</p>
+                <p><strong>Викладач:</strong> Марія Петренко</p>
+                <button class="course-start-button">Розпочати курс</button>
+
+                <div class="course-stats-box">
+                    <div class="course-rating"> Оцінка: 4.5⭐</div>
+                    <div class="course-participants"> Учасників: 700</div>
+                </div>
+            </div>
+            
+            <div class="course">
+                <img src="./images/Python.jpg" alt="">
+                <h2 class="course-title">Python</h2>
+                <p><strong>Рівень:</strong> Просунутий</p>
+                <p><strong>Тривалість:</strong> 4 місяці</p>
+                <p><strong>Викладач:</strong> Дмитро Коваль</p>
+                <button class="course-start-button">Розпочати курс</button>
+                
+                <div class="course-stats-box">
+                    <div class="course-rating"> Оцінка: 5.0⭐</div>
+                    <div class="course-participants"> Учасників: 80</div>
+                </div>
+            </div>
+            
+            <div class="course">
+                <img src="./images/Reactt.jpg" alt="">
+                <h2 class="course-title">React</h2>
+                <p><strong>Рівень:</strong> Середній</p>
+                <p><strong>Тривалість:</strong> 2.5 місяці</p>
+                <p><strong>Викладач:</strong> Анна Савченко</p>
+                <button class="course-start-button">Розпочати курс</button>
+
+                <div class="course-stats-box">
+                    <div class="course-rating"> Оцінка: 4.0⭐</div>
+                    <div class="course-participants"> Учасників: 40</div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p> 2025 Pro-Courses. Усі права захищено.</p>
+        <p>Зв'яжіться з нами: info@procourses.com</a> | Телефон: +380 96 208 5674</p>
+    </footer>
+    </div>
+
+    <script src="course-to-active-moving.js"></script>
+    <script src="courses-stats.js"></script>
+    <script src="active-courses-stats.js"></script>
+
+</body>
+</html>

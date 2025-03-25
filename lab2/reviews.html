@@ -1,0 +1,36 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <a href="index.html"><div class="title"><img src="./images/Logo.svg" alt=""></div></a>
+        <nav>
+            <a href="courses.html" class="part-button">Курси</a>
+            <a href="schedule.html" class="part-button">Розклад занять</a>
+            <a href="my-account.html" class="part-button">Мій кабінет</a>
+            <a href="reviews.html" class="part-button">Відгуки</a>
+        </nav>
+    </header>
+    <main>
+        <ul id="comment-list"></ul>
+        <form id="comment-form">
+            <input type="text" id="comment-name" placeholder="Ваше ім'я" required>
+            <textarea id="comment-text" placeholder="Ваш відгук" required></textarea>
+            <button type="submit" class="add-comment-button">Додати</button>
+        </form>
+    </main>
+    <footer>
+        <p>2025 Pro-Courses. Усі права захищено.</p>
+        <p>Зв'яжіться з нами: info@procourses.com | Телефон: +380 96 208 5674</p>
+    </footer>
+    </div>
+
+    <script src="reviews.js"></script>
+
+</body>
+</html>

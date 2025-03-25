@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 334 103" width="334" height="103">
+	<title>New Project</title>
+	<defs>
+		<image  width="400" height="300" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsAQMAAADXeXeBAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAEdJREFUeJzty6EBAAAMAqD5/9O7wGCHTm4WRVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVG6B2CLAS1g3n7cAAAAAElFTkSuQmCC"/>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(73,0,0,94,13,53)">
+			<stop offset="0" stop-color="#000000"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 80px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t1 { font-size: 65px;fill: #c5c5c5;font-weight: 400;font-family: "DejaVuSerifCondensed", "DejaVu Serif" } 
+		.s2 { fill: none;stroke: url(#g1);stroke-miterlimit:100;stroke-width: 6.9 } 
+	</style>
+	<use id="Background" href="#img1" x="-26" y="-97"/>
+	<text id="P" style="transform: matrix(1,0,0,1,26,84)" >
+		<tspan x="0" y="0" class="t0">P
+</tspan>
+	</text>
+	<text id="Courses" style="transform: matrix(1,0,0,1,96,82)" >
+		<tspan x="0" y="0" class="t1">C</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">u</tspan><tspan  y="0" class="t1">r</tspan><tspan  y="0" class="t1">s</tspan><tspan  y="0" class="t1">e</tspan><tspan  y="0" class="t1">s</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+	<path id="Shape 1" fill-rule="evenodd" class="s2" d="m86 6v94h-73v-94z"/>
+</svg>
